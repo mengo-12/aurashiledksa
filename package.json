@@ -1,0 +1,44 @@
+{
+  "name": "weather_fitness",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "flowbite-react patch"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.16.3",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "file-saver": "^2.0.5",
+    "flowbite": "^3.1.2",
+    "flowbite-react": "^0.11.7",
+    "framer-motion": "^12.8.0",
+    "i18next": "^24.2.3",
+    "i18next-browser-languagedetector": "^8.0.4",
+    "i18next-http-backend": "^3.0.2",
+    "json2xls": "^0.1.2",
+    "keen-slider": "^6.8.6",
+    "lucide-react": "^0.508.0",
+    "next": "^16.1.6",
+    "next-auth": "^4.24.11",
+    "next-i18next": "^15.4.2",
+    "prisma": "^6.16.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^15.4.1",
+    "react-icons": "^5.5.0",
+    "react-time-picker": "^8.0.2",
+    "tailwindcss-rtl": "^0.9.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.3"
+  }
+}
